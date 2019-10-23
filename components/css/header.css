@@ -19,12 +19,11 @@
   position: relative;
 }
 
-.dropdown-submenu > .dropdown-menu {
-  top: 0;
+.dropdown-submenu .dropdown-menu {
+  top: -5px;
   /*left:-100%;*/
   left: 10rem;
   /* 10rem is the min-width of dropdown-menu */
-  margin-top: -6px;
 }
 
 /* rotate caret on hover */
