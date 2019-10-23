@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACQ,SADC,CACD,qBAAqB,CAAC;EAClB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,aAAa,EAAG,qBAAqB;CACxC",
+    "sources": [
+        "headline.scss"
+    ],
+    "names": [],
+    "file": "headline.css"
+}
