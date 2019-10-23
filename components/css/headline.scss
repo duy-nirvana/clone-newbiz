@@ -1,6 +1,14 @@
 .headline {
-        .headline__background {
-            width: 100vw;
-            height: 550px;
+    background-image: url('../../images/headline.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 600px;
+    .container {
+        height: 100%;
+        .row {
+            height: inherit;
         }
+    }
 }

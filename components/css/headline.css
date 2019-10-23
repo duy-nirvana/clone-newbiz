@@ -1,5 +1,17 @@
-.headline .headline__background {
+.headline {
+  background-image: url("../../images/headline.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100vw;
-  height: 550px;
+  height: 600px;
+}
+
+.headline .container {
+  height: 100%;
+}
+
+.headline .container .row {
+  height: inherit;
 }
 /*# sourceMappingURL=headline.css.map */
