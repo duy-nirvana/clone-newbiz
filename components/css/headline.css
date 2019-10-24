@@ -14,4 +14,45 @@
 .headline .container .row {
   height: inherit;
 }
+
+.headline .container .row .intro {
+  color: white;
+}
+
+.headline .container .row .intro h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem !important;
+}
+
+.headline .container .row .intro h1 span {
+  color: #74b5fc;
+  text-decoration: underline;
+}
+
+.headline .container .row .intro a .btn {
+  width: 35%;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.headline .container .row .intro a .btn-get-started {
+  border: 2px solid #007bff !important;
+}
+
+.headline .container .row .intro a .btn-get-started:hover {
+  background: transparent;
+  color: white;
+  border: 2px solid white !important;
+}
+
+.headline .container .row .intro a .btn-out-services {
+  border: 2px solid white !important;
+}
+
+.headline .container .row .intro a .btn-out-services:hover {
+  background: #007bff;
+  color: white;
+  border: 2px solid #007bff !important;
+}
 /*# sourceMappingURL=headline.css.map */
