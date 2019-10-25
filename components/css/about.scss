@@ -1,0 +1,17 @@
+$blueColor: #74b5fc;
+$btnColor: #007bff;
+
+.icon {
+    border: 2px solid $btnColor !important;
+    color: $btnColor;
+    transition: .3s;
+}
+
+.about-child {
+    &:hover {
+        .icon {
+        background: $btnColor;
+        color: white;
+        }
+    }
+}

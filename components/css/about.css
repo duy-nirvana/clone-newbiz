@@ -1,0 +1,12 @@
+.icon {
+  border: 2px solid #007bff !important;
+  color: #007bff;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.about-child:hover .icon {
+  background: #007bff;
+  color: white;
+}
+/*# sourceMappingURL=about.css.map */
