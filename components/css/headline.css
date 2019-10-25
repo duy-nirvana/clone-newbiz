@@ -31,7 +31,7 @@
 }
 
 .headline .container .row .intro a .btn {
-  width: 35%;
+  width: 10em;
   -webkit-transition: .5s;
   transition: .5s;
 }
