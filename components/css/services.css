@@ -1,5 +1,5 @@
-.icon-services {
-  color: #007bff;
+.services-background {
+  background-color: #ecf5ff;
 }
 
 .services {
@@ -10,5 +10,9 @@
 .services:hover {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
+}
+
+.services .icon-services {
+  color: #007bff;
 }
 /*# sourceMappingURL=services.css.map */

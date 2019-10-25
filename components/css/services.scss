@@ -1,8 +1,9 @@
 $blueColor: #74b5fc;
 $btnColor: #007bff;
+$blueBackground: #ecf5ff;
 
-.icon-services {
-    color: $btnColor;
+.services-background {
+    background-color: $blueBackground;
 }
 
 .services {
@@ -10,4 +11,7 @@ $btnColor: #007bff;
     &:hover {
         transform: translateY(-10px);
     }
-  }
+    .icon-services {
+        color: $btnColor;
+    }    
+}
