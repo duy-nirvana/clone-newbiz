@@ -1,6 +1,10 @@
 $blueColor: #74b5fc;
 $btnColor: #007bff;
 
+h1,h2,h3,h4,h5 {
+    font-weight: 700;
+}
+
 .icon {
     border: 2px solid $btnColor !important;
     color: $btnColor;

@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+}
+
 .icon {
   border: 2px solid #007bff !important;
   color: #007bff;
