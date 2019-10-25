@@ -1,0 +1,14 @@
+.icon-services {
+  color: #007bff;
+}
+
+.services {
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.services:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+/*# sourceMappingURL=services.css.map */

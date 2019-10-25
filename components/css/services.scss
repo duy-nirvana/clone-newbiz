@@ -1,0 +1,13 @@
+$blueColor: #74b5fc;
+$btnColor: #007bff;
+
+.icon-services {
+    color: $btnColor;
+}
+
+.services {
+    transition: .5s;
+    &:hover {
+        transform: translateY(-10px);
+    }
+  }
