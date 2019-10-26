@@ -1,0 +1,26 @@
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+}
+
+.why-us-background {
+  background-color: #004a99;
+  color: white;
+}
+
+.card {
+  background: #00458f;
+}
+
+.readmore {
+  color: white;
+}
+
+.readmore:visited {
+  color: white;
+}
+
+.readmore:hover {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=why-us.css.map */

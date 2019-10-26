@@ -1,0 +1,29 @@
+$blueColor: #74b5fc;
+$btnColor: #007bff;
+$blueBackground: #ecf5ff;
+
+h1,h2,h3,h4,h5 {
+    font-weight: 700;
+}
+
+.why-us-background {
+    background-color: #004a99;
+    color: white;
+}
+
+.card {
+    background: #00458f;
+    
+}
+
+.readmore {
+    color: white;
+    &:visited {
+        color: white;
+    }
+    &:hover {
+        color: white;
+        text-decoration: none;
+    }
+}
+
