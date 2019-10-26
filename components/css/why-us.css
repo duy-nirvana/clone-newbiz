@@ -9,6 +9,16 @@ h1, h2, h3, h4, h5 {
 
 .card {
   background: #00458f;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.card:hover {
+  background-color: #003c7b;
+}
+
+.card:hover .readmore {
+  border-bottom: 2px solid #004a99;
 }
 
 .readmore {
@@ -22,5 +32,6 @@ h1, h2, h3, h4, h5 {
 .readmore:hover {
   color: white;
   text-decoration: none;
+  border-bottom: 2px solid white !important;
 }
 /*# sourceMappingURL=why-us.css.map */
