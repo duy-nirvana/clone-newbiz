@@ -1,0 +1,38 @@
+$blueColor: #74b5fc;
+$btnColor: #007bff;
+$blueBackground: #ecf5ff;
+$footerInfoBackground: #004a99;
+$footerBackground: #00428a;
+
+.footer-info {
+    color: white;
+    background: $footerInfoBackground;
+    .useful {
+        color: white;
+        transition: .3s;
+        &:hover {
+            text-decoration: none;
+            color: $blueColor;
+        }
+        &:link {
+            color: white;
+        }
+    }
+    .icon-footer {
+        i {
+            background: $btnColor;
+            width: 2rem;
+            transition: .3s;
+            &:hover {
+                background: white;
+                color: black;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.footer {
+    color: white;
+    background: $footerBackground;
+}

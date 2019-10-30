@@ -1,0 +1,38 @@
+.footer-info {
+  color: white;
+  background: #004a99;
+}
+
+.footer-info .useful {
+  color: white;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.footer-info .useful:hover {
+  text-decoration: none;
+  color: #74b5fc;
+}
+
+.footer-info .useful:link {
+  color: white;
+}
+
+.footer-info .icon-footer i {
+  background: #007bff;
+  width: 2rem;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.footer-info .icon-footer i:hover {
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+.footer {
+  color: white;
+  background: #00428a;
+}
+/*# sourceMappingURL=footer.css.map */
