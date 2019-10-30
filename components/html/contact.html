@@ -4,12 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/7f03acd592.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/contact.css">
 </head>
 <body>
-    
+    <div class="container-fluid pb-5 pt-5">
+            <div class="row d-flex justify-content-center align-items-center text-center pb-5">
+                <h2>Contacts Us</h2>     
+            </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3919.158455170546!2d106.68690466487263!3d10.744956212711742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1struong%20rach%20ong!5e0!3m2!1sen!2s!4v1572439297204!5m2!1sen!2s" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe> 
+            </div>
+            <div class="col-lg-6">
 
+                <div class="row">
+                    <div class="col-md-5">
+                        <i class="icon-contact fas fa-map-marker-alt fa-lg mr-2"></i>
+                        <p class="d-inline">290B Duong Ba Trac</p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="icon-contact far fa-envelope fa-lg mr-2"></i>
+                        <p class="d-inline">info@example.com</p>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="icon-contact fas fa-phone-alt fa-lg mr-2"></i>
+                        <p class="d-inline">0932 625 091</p>
+                    </div>
+                </div>
+
+                <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                          <div class="col-md-6 mb-3 mt-3">
+                            <input type="text" name="name" class="form-control" id="validationTooltip01" placeholder="Your Name" required>
+                            <div class="invalid-tooltip">
+                                Please provide your name.
+                            </div>
+                          </div>
+                          <div class="col-md-6 mb-3 mt-3 mt-3">
+                            <input type="email" name="email" class="form-control" id="validationTooltip02" placeholder="Your Email" required>
+                            <div class="invalid-tooltip">
+                                Please provide your email.
+                            </div>
+                          </div>
+                          
+                          <div class="col-md-12 mb-3 mt-3">
+                            <input type="text" class="form-control" id="validationTooltip04" placeholder="Subject" required>
+                            <div class="invalid-tooltip">
+                              Please provide subject.
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3 mt-3">
+                            <textarea class="form-control" id="validationTooltip05" placeholder="Message" rows="5" required></textarea>
+                          </div>
+                        </div>
+
+                        <div class="text-center">
+                            <button class="btn btn-primary rounded-pill w-50" type="submit">Send Message</button>
+                        </div>
+                </form>
+                
+            </div>    
+        </div>
+    </div>
+
+
+    <script src="../js/submit.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
