@@ -1,0 +1,16 @@
+.clients {
+  background: #ecf5ff;
+}
+
+.img img {
+  -webkit-transform: scale(0.5, 0.5);
+          transform: scale(0.5, 0.5);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.img:hover img {
+  -webkit-transform: scale(0.7, 0.7);
+          transform: scale(0.7, 0.7);
+}
+/*# sourceMappingURL=clients.css.map */

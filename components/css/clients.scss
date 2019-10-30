@@ -1,0 +1,19 @@
+$blueColor: #74b5fc;
+$btnColor: #007bff;
+$blueBackground: #ecf5ff;
+
+.clients {
+    background: $blueBackground;
+}
+
+.img {
+    img {
+        transform: scale(.5, .5);
+        transition: .5s;
+    }
+    &:hover {
+        img {
+            transform: scale(.7, .7);
+        }
+    }
+}
