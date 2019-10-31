@@ -4,6 +4,10 @@ $blueBackground: #ecf5ff;
 $footerInfoBackground: #004a99;
 $footerBackground: #00428a;
 
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
 
 h1,h2,h3,h4,h5 {
     font-weight: 700;
