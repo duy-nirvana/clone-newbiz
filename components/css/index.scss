@@ -1,0 +1,271 @@
+$blueColor: #74b5fc;
+$btnColor: #007bff;
+$blueBackground: #ecf5ff;
+$footerInfoBackground: #004a99;
+$footerBackground: #00428a;
+
+
+h1,h2,h3,h4,h5 {
+    font-weight: 700;
+}
+
+/*-------HEADER---------*/
+/*
+  Dropdown menu
+*/
+.dropdown-menu-right {
+    position: relative;
+    left: 0.5rem;
+}
+
+.navbar-nav {
+    transition: all 3s;
+    li:hover > ul.dropdown-menu {
+        display: block;
+    }
+}
+
+.dropdown-submenu {
+    position: relative;
+    .dropdown-menu {
+        top:-5px;
+        /*left:-100%;*/
+        left: 10rem; /* 10rem is the min-width of dropdown-menu */
+    }
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+} 
+  
+  
+  
+  /*
+  change height of logo
+  */
+.logo > img {
+    max-height: 26px;
+}
+
+
+/*----------HEADLINE------------*/
+
+.headline {
+    background-image: url('../../images/headline.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 600px;
+    .container {
+        height: 100%;
+        .row {
+            height: inherit;
+            .intro {
+                color: white;
+                h1 {
+                    font-size: 3rem;
+                    font-weight: 700;
+                    margin-bottom: 1.5rem !important;
+                    span {
+                        color: $blueColor;
+                        text-decoration: underline;
+                    }
+                    
+                }
+            a {
+                .btn {
+                    width: 10em;
+                    transition: .5s;
+                }
+                .btn-get-started {
+                    border: 2px solid $btnColor !important;
+                    &:hover {
+                        background: transparent;
+                        color: white;
+                        border: 2px solid white !important;
+                    }
+                }
+                .btn-out-services {
+                    border: 2px solid white !important;
+                    &:hover {
+                        background: $btnColor;
+                        color: white;
+                        border: 2px solid $btnColor !important;
+                    }
+                }
+            }   
+            }
+        }
+    }
+}
+
+/*-------------ABOUT---------------*/
+.icon-about {
+    border: 2px solid $btnColor !important;
+    color: $btnColor;
+    transition: .3s;
+}
+
+.about-child {
+    &:hover {
+        .icon-about {
+        background: $btnColor;
+        color: white;
+        }
+    }
+}
+
+/*--------------SERVICES---------------------*/
+.services-background {
+    background-color: $blueBackground;
+}
+
+.services {
+    transition: .5s;
+    &:hover {
+        transform: translateY(-10px);
+    }
+    .icon-services {
+        color: $btnColor;
+    }    
+}
+
+/*----------------WHY-US------------------------*/
+
+.why-us-background {
+    background-color: #004a99;
+    color: white;
+}
+
+.card-why-us {
+    background: #00458f;
+    transition: background-color 0.3s;
+    &:hover {
+        background-color: #003c7b;
+        .readmore {
+            border-bottom: 2px solid #004a99;          
+        }
+    }
+}
+
+.readmore {
+    color: white;
+    &:visited {
+        color: white;
+    }
+    &:hover {
+        color: white;
+        text-decoration: none;
+        border-bottom: 2px solid white !important;
+    }
+}
+
+/*----------------TEAM------------------------*/
+.member {
+    position: relative;
+    color: white;
+    &:hover {
+      .layout {
+        visibility: visible;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+      }
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .layout {
+      transition: .1s;
+      visibility: hidden;
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 1rem;
+      left: 50%;
+      z-index: -1;
+      border-radius: 50%;
+      background-color: rgba(0, 123, 255, 0.5);
+      .layout-info {
+        padding-top: 40%;
+        h4 {
+          margin: 0;
+        }
+        .layout-info-icon {
+          margin-top: 5%;
+          i {
+            margin: 0.5%;
+            cursor: pointer;
+            &:hover {
+              color: #000;
+            }
+          }
+        }
+      }
+    }
+}
+  
+/*----------------CLients------------------------*/
+.clients {
+    background: $blueBackground;
+}
+
+.img-clients {
+    img {
+        transform: scale(.5, .5);
+        transition: .5s;
+    }
+    &:hover {
+        img {
+            transform: scale(.7, .7);
+        }
+    }
+}
+
+
+/*----------------Contact-us------------------------*/
+.icon-contact {
+    color: #007bff;
+}
+
+
+/*----------FOOTER------------*/
+.footer-info {
+    color: white;
+    background: $footerInfoBackground;
+    .useful {
+        color: white;
+        transition: .3s;
+        &:hover {
+            text-decoration: none;
+            color: $blueColor;
+        }
+        &:link {
+            color: white;
+        }
+    }
+    .icon-footer {
+        i {
+            background: $btnColor;
+            width: 2rem;
+            transition: .3s;
+            &:hover {
+                background: white;
+                color: black;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.footer {
+    color: white;
+    background: $footerBackground;
+}

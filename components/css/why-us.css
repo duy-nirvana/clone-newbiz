@@ -7,17 +7,17 @@ h1, h2, h3, h4, h5 {
   color: white;
 }
 
-.card {
+.card-why-us {
   background: #00458f;
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
 }
 
-.card:hover {
+.card-why-us:hover {
   background-color: #003c7b;
 }
 
-.card:hover .readmore {
+.card-why-us:hover .readmore {
   border-bottom: 2px solid #004a99;
 }
 

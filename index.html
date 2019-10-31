@@ -5,18 +5,555 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Newbiz</title>
+    <!--EMOJI-->
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <!--FONTAWESOME-->
     <script src="https://kit.fontawesome.com/7f03acd592.js" crossorigin="anonymous"></script>
     <!--BOOTSTRAP4-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--LINK TO CSS-->
+    <link rel="stylesheet" href="/components/css/index.css">
 </head>
 <body>
+    <section class="header-section">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top z-index-1">
+              <div class="container ">
+                <a class="logo navbar-brand pb-2" href="#">
+                    <img src="../../images/logo.png" alt="#">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdownMenu" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavDropdownMenu">
+                    <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item active ml-4">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ml-4">
+                            <a class="nav-link" href="#">About Us</a>
+                    </li>
+                  <li class="nav-item ml-4">
+                          <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item ml-4">
+                          <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item ml-4">
+                          <a class="nav-link" href="#">Team</a>
+                  </li>
+                  <li class="nav-item dropdown ml-4">
+                      <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-right " aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Dropdown-1</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Dropdown-2</a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Submenu-2-1</a></li>
+                            <li><a class="dropdown-item" href="#">Submenu-2-2</a></li>
+                            <li><a class="dropdown-item" href="#">Submenu-2-3</a></li>
+                          </ul>
+                        </li>
+                          <li><a class="dropdown-item" href="#">Dropdown-3</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item ml-4">
+                          <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+    </section>
+
+    <section class="headline-section">
+        <div class="headline mt-5">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <img class="intro-image col-md-6 w-75 ml-auto mr-auto" src="../../images/intro-img.svg" alt="#">  
+                    <div class="intro  justify-content-md-between text-center text-md-left col-md-6 order-md-first ">
+                        <h1>We provide <br/>
+                        <span>solutions</span> <br/>
+                        for your business!</h1>
+        
+                        <a href="#"><button class="btn btn-get-started btn-primary btn-outline-light rounded-pill p-2 font-weight-bold mr-4">Get Started</button></a>
+                        <a href="#"><button class="btn btn-out-services btn-outline-light rounded-pill p-2 font-weight-bold">Our Services</button></a>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center text-center mt-5">
+                <h2>About Us</h2>
+                <div class="w-100"></div>
+                <p class="col-lg-6 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
     
+            <!--CHILDREN-->
+            <div class="row mt-4 ">
+    
+                <div class="col-lg-6 "><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="w-100"></div>
+    
+                    <div class="about-child d-flex align-items-center">
+                     <i class="icon-about fas fa-briefcase fa-2x rounded-circle p-3 border "></i>
+                        <div class="text ml-4">
+                            <h5>Eiusmod Tempor</h5>
+                            <p class="text-muted">1 Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                        </div>
+                    </div>
+    
+                    <div class="about-child d-flex align-items-center">
+                        <i class="icon-about far fa-image fa-2x rounded-circle p-3 border "></i>
+                        <div class="text ml-4">
+                            <h5>Magni Dolores</h5>
+                            <p class="text-muted">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        </div>
+                    </div>
+    
+                    <div class="about-child d-flex align-items-center">
+                        <i class="icon-about fas fa-chart-bar fa-2x rounded-circle p-3 border "></i>
+                        <div class="text ml-4">
+                            <h5>Dolor Sitema</h5>
+                            <p class="text-muted">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 order-first order-lg-last">
+                    <img class="w-100" src="../../images/about-img.svg" alt=""#>
+                </div>  
+            </div>
+    
+            <div class="row mt-5 d-flex align-items-center">
+                <div class="col-lg-6">
+                    <img class="w-100" src="../../images/about-extra-1.svg" alt="#">
+                </div>
+                <div class="col-lg-6 mt-3">
+                    <h4>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h4>
+                    <p class="text-muted">Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.</p>
+                    <div class="w-100"></div>
+                    <p class="text-muted"> Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum.</p>
+                </div>
+            </div>
+    
+            <div class="row mt-5 d-flex align-items-center mb-5">
+                <div class="col-lg-6 order-lg-last">
+                    <img class="w-100" src="../../images/about-extra-2.svg" alt="#">
+                </div>
+                <div class="col-lg-6 mt-3">
+                    <h4>Neque saepe temporibus repellat ea ipsum et. Id vel et quia tempora facere reprehenderit.</h4>
+                    <p class="text-muted">Delectus alias ut incidunt delectus nam placeat in consequatur. Sed cupiditate quia ea quis. Voluptas nemo qui aut distinctio. Cumque fugit earum est quam officiis numquam. Ducimus corporis autem at blanditiis beatae incidunt sunt.</p>
+                    <div class="w-100"></div>
+                    <p class="text-muted">Voluptas saepe natus quidem blanditiis. Non sunt impedit voluptas mollitia beatae. Qui esse molestias. Laudantium libero nisi vitae debitis. Dolorem cupiditate est perferendis iusto.</p>
+                    <div class="w-100"></div>
+                    <p class="text-muted">Eum quia in. Magni quas ipsum a. Quis ex voluptatem inventore sint quia modi. Numquam est aut fuga mollitia exercitationem nam accusantium provident quia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="services-part">
+        <div class="jumbotron-fluid services-background ">
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center text-center pt-5 pb-3">
+                    <h2>Services</h2>
+                    <div class="w-100"></div>
+                    <p class="col-lg-6 text-muted">Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+                </div>
+                <!--ROW 1-->
+                <div class="row justify-content-around">
+        
+                    <div class="services col-lg-5 m-4 p-3 shadow bg-white d-flex align-items-center rounded">
+                        <div class=""><i class="icon-services fas fa-chart-pie fa-3x pr-4"></i></div>
+                        <div class="services__content">
+                            <h5>Lorem Ipsum</h5>
+                            <p class="text-muted">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                        </div>
+                    </div>
+        
+                    <div class="services col-lg-5 m-4 p-3 shadow bg-white d-flex align-items-center rounded">
+                        <div class=""><i class="icon-services fas fa-book fa-3x pr-4"></i></div>
+                        <div class="services__content">
+                            <h5>Dolor Sitema</h5>
+                            <p class="text-muted">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                        </div>
+                    </div>
 
+                </div>
+
+                <!--ROW 2-->
+                <div class="row justify-content-around">
+    
+                    <div class="services col-lg-5 m-4 p-3 shadow bg-white d-flex align-items-center rounded">
+                        <div class=""><i class="icon-services fas fa-scroll fa-3x pr-4"></i></div>
+                        <div class="services__content">
+                            <h5>Sed ut perspiciatis</h5>
+                            <p class="text-muted">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        </div>
+                    </div>
+    
+                    <div class="services col-lg-5 m-4 p-3 shadow bg-white d-flex align-items-center rounded">
+                        <div class=""><i class="icon-services fas fa-tachometer-alt fa-3x pr-4"></i></div>
+                        <div class="services__content">
+                            <h5>Magni Dolores</h5>
+                            <p class="text-muted">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        </div>
+                    </div>
+        
+                </div>
+                <!--ROW 3-->
+                <div class="row justify-content-around">
+
+                    <div class="services col-lg-5 m-4 p-3 shadow bg-white d-flex align-items-center rounded">
+                        <div class=""><i class="icon-services fas fa-globe fa-3x pr-4"></i></div>
+                        <div class="services__content">
+                            <h5>Nemo Enim</h5>
+                            <p class="text-muted">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                        </div>
+                    </div>
+    
+                    <div class="services col-lg-5 m-4 p-3 shadow bg-white d-flex align-items-center rounded">
+                            <div class=""><i class="icon-services fas fa-clock fa-3x pr-4"></i></div>
+                            <div class="services__content">
+                                <h5>Eiusmod Tempor</h5>
+                                <p class="text-muted">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                            </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose-us">
+        <div class="jumbotron-fluid why-us-background ">
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center text-center pt-5 pb-5">
+                    <h2>Why choose us?</h2>
+                    <div class="w-100"></div>
+                    <p class="col-lg-6">Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+                </div>
+    
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 text-center rounded">
+                        <div class="card card-why-us mb-3 border-0">
+                            <i class="far fa-gem fa-3x pt-4"></i>
+                            <div class="card-body">
+                                <h4 class="card-title">Corporis dolorem</h4>
+                                <p class="card-text">Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus.</p>
+                                <a href="#" class="readmore font-weight-bold ">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 text-center rounded">
+                        <div class="card card-why-us mb-3 border-0">
+                            <i class="fa fa-language fa-3x pt-4"></i>
+                            <div class="card-body">
+                                <h4 class="card-title">Voluptates dolores</h4>
+                                <p class="card-text">Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur.</p>
+                                <a href="#" class="readmore font-weight-bold">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 text-center rounded">
+                        <div class="card card-why-us mb-3 border-0">
+                            <i class="fas fa-photo-video fa-3x pt-4"></i>
+                            <div class="card-body">
+                                <h4 class="card-title">Eum ut aspernatur</h4>
+                                <p class="card-text">Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex.</p>
+                                <a href="#" class="readmore font-weight-bold">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+                
+                <div class="row pt-4 pb-4">
+                    <div class="col-6 col-lg-3 text-center ">
+                        <h1><span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration=".5" class="purecounter counter">0</span></h1>
+                        <p class="font-weight-light">Clients</p>
+                    </div>
+                    <div class="col-6 col-lg-3 text-center ">
+                        <h1><span data-purecounter-start="0" data-purecounter-end="421" data-purecounter-duration=".5" class="purecounter counter">0</span></h1>
+                        <p class="font-weight-light">Projects</p>
+                    </div>
+                    <div class="col-6 col-lg-3 text-center ">
+                        <h1><span data-purecounter-start="0" data-purecounter-end="1364" data-purecounter-duration=".5" class="purecounter counter">0</span></h1>
+                        <p class="font-weight-light">Hours Of Support</p>
+                    </div>
+                    <div class="col-6 col-lg-3 text-center ">
+                        <h1><span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration=".5" data-purecounter-delay="30" class="purecounter counter">0</span></h1>
+                        <p class="font-weight-light">Hard Workers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-section">
+        <div class="container">
+    
+            <div class="row d-flex justify-content-center align-items-center text-center pt-5 pb-5">
+                <h2>Team</h2>
+                <div class="w-100"></div>
+                <p class="col-lg-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+            </div>
+    
+            <div class="row text-center pb-5">
+    
+                <div class="col-6 col-md-6 col-lg-3 mb-2 mt-2">
+                    <div class="member">
+                        <img class="img-fluid rounded-circle" src="../../images/stan-lee.png" alt="stan-lee">
+                        <div class="layout">
+                            <div class="layout-info">
+                                <h4>Stan Lee</h4>
+                                <i>Developer</i>
+                                <div class="layout-info-icon">
+                                    <i class="fab fa-twitter fa-lg"></i>
+                                    <i class="fab fa-facebook-f fa-lg"></i>
+                                    <i class="fab fa-google-plus-g fa-lg"></i>
+                                    <i class="fab fa-github fa-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-6 col-md-6 col-lg-3 mb-2 mt-2">
+                    <div class="member">
+                        <img class="img-fluid rounded-circle" src="../../images/stan-lee.png" alt="stan-lee">
+                        <div class="layout">
+                            <div class="layout-info">
+                                <h4>Stan Lee</h4>
+                                <i>Developer</i>
+                                <div class="layout-info-icon">
+                                    <i class="fab fa-twitter fa-lg"></i>
+                                    <i class="fab fa-facebook-f fa-lg"></i>
+                                    <i class="fab fa-google-plus-g fa-lg"></i>
+                                    <i class="fab fa-github fa-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-6 col-md-6 col-lg-3 mb-2 mt-2">
+                    <div class="member">
+                        <img class="img-fluid rounded-circle" src="../../images/stan-lee.png" alt="stan-lee">
+                        <div class="layout">
+                            <div class="layout-info">
+                                <h4>Stan Lee</h4>
+                                <i>Developer</i>
+                                <div class="layout-info-icon">
+                                    <i class="fab fa-twitter fa-lg"></i>
+                                    <i class="fab fa-facebook-f fa-lg"></i>
+                                    <i class="fab fa-google-plus-g fa-lg"></i>
+                                    <i class="fab fa-github fa-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-3 mb-2 mt-2">
+                    <div class="member">
+                        <img class="img-fluid rounded-circle" src="../../images/stan-lee.png" alt="stan-lee">
+                        <div class="layout">
+                            <div class="layout-info">
+                                <h4>Stan Lee</h4>
+                                <i>Developer</i>
+                                <div class="layout-info-icon">
+                                    <i class="fab fa-twitter fa-lg"></i>
+                                    <i class="fab fa-facebook-f fa-lg"></i>
+                                    <i class="fab fa-google-plus-g fa-lg"></i>
+                                    <i class="fab fa-github fa-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="clients-section">
+        <div class="jumbotron clients">
+            <div class="container">
+    
+                <div class="row d-flex justify-content-center align-items-center text-center pb-5">
+                    <h2>Our Clients</h2>
+                    <div class="w-100"></div>
+                    <p class="col-lg-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.</p>
+                </div>
+    
+                <div class="row d-flex jutify-content-center">
+                    <div class="col-lg-3 col-md-4 col-xs-6 p-0 bg-light  border img-clients">
+                        <img class="img-fluid" src="../../images/nasa-logo.png" alt="logo-nasa">
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 p-0 bg-light  border img-clients">
+                        <img class="img-fluid" src="../../images/nasa-logo.png" alt="logo-nasa">
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 p-0 bg-light  border img-clients">
+                        <img class="img-fluid" src="../../images/nasa-logo.png" alt="logo-nasa">
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 p-0 bg-light  border img-clients">
+                        <img class="img-fluid" src="../../images/nasa-logo.png" alt="logo-nasa">
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-4 col-xs-6 p-0 bg-light  border img-clients">
+                        <img class="img-fluid" src="../../images/nasa-logo.png" alt="logo-nasa">
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 p-0 bg-light  border img-clients">
+                        <img class="img-fluid" src="../../images/nasa-logo.png" alt="logo-nasa">
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 p-0 bg-light  border img-clients">
+                        <img class="img-fluid" src="../../images/nasa-logo.png" alt="logo-nasa">
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 p-0 bg-light  border img-clients">
+                        <img class="img-fluid" src="../../images/nasa-logo.png" alt="logo-nasa">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-us-section">
+        <div class="container-fluid pb-5 pt-5">
+                <div class="row d-flex justify-content-center align-items-center text-center pb-5">
+                    <h2>Contacts Us</h2>     
+                </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3919.158455170546!2d106.68690466487263!3d10.744956212711742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1struong%20rach%20ong!5e0!3m2!1sen!2s!4v1572439297204!5m2!1sen!2s" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe> 
+                </div>
+                <div class="col-lg-6">
+    
+                    <div class="row">
+                        <div class="col-md-5">
+                            <i class="icon-contact fas fa-map-marker-alt fa-lg mr-2"></i>
+                            <p class="d-inline">290B Duong Ba Trac</p>
+                        </div>
+                        <div class="col-md-4">
+                        <i class="icon-contact far fa-envelope fa-lg mr-2"></i>
+                        <p class="d-inline">info@example.com</p>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="icon-contact fas fa-phone-alt fa-lg mr-2"></i>
+                        <p class="d-inline">0932 625 091</p>
+                    </div>
+                    </div>
+    
+                    <form class="needs-validation" novalidate>
+                            <div class="form-row">
+                              <div class="col-md-6 mb-3 mt-3">
+                                <input type="text" name="name" class="form-control" id="validationTooltip01" placeholder="Your Name" required>
+                                <div class="invalid-tooltip">
+                                    Please provide your name.
+                            </div>
+                          </div>
+                          <div class="col-md-6 mb-3 mt-3 mt-3">
+                            <input type="email" name="email" class="form-control" id="validationTooltip02" placeholder="Your Email" required>
+                            <div class="invalid-tooltip">
+                                Please provide your email.
+                            </div>
+                          </div>
+                          
+                          <div class="col-md-12 mb-3 mt-3">
+                            <input type="text" class="form-control" id="validationTooltip04" placeholder="Subject" required>
+                            <div class="invalid-tooltip">
+                              Please provide subject.
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3 mt-3">
+                            <textarea class="form-control" id="validationTooltip05" placeholder="Message" rows="5" required></textarea>
+                          </div>
+                            </div>
+    
+                            <div class="text-center">
+                                <button class="btn btn-primary rounded-pill w-50" type="submit">Send Message</button>
+                            </div>
+                    </form>
+                    
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-section">
+        <div class="footer-info jumbotron-fluid pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h1>NEWBIZ</h1>
+                        <p class="font-weight-light">Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+                    </div>
+    
+                    <div class="col-lg-2">
+                        <p class="font-weight-bold mb-3 mt-3">USEFUL LINKS</p>
+                        <a class="useful" href="#">Home</a>
+                        <div class="w-100"></div>
+                        <a class="useful" href="#">About us</a>
+                        <div class="w-100"></div>
+                        <a class="useful" href="#">Services</a>
+                        <div class="w-100"></div>
+                        <a class="useful" href="#">Terms of service</a>
+                        <div class="w-100"></div>
+                        <a class="useful" href="#">Privacy policy</a>
+                    </div>
+                    
+                    <div class="col-lg-3">
+                        <p class="font-weight-bold mb-3 mt-3">CONTACT US</p>
+                        <p class="mb-0">290B Duong Ba Trac</p>
+                        <p class="mb-0"><span class="font-weight-bold">Phone:</span>  0932 625 091</p>  
+                        <p class="mb-0"><span class="font-weight-bold">Email:</span> info@example.com</p>
+                        <div class="icon-footer mt-3">
+                            <i class="fab fa-twitter rounded-circle p-2 mr-2"></i>
+                            <i class="fab fa-facebook-f rounded-circle p-2 mr-2"></i>
+                            <i class="fab fa-instagram rounded-circle p-2 mr-2"></i>
+                            <i class="fab fa-google-plus-g rounded-circle p-2 mr-2"></i>
+                            <i class="fab fa-invision rounded-circle p-2 mr-2"></i>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-3">
+                        <p class="font-weight-bold mb-3 mt-3">OUR NEWSLETTER</p>
+                        <p class="font-weight-light">Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+                        <div class="form-row">
+                            <div class="col-8">
+                                <input type="email" name="email" class="form-control" required>
+                            </div>
+                            <button class=" col-4 btn btn-primary" type="submit">Subcribes</button>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer jumbotron-fluid pt-3 m-0">
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center text-center">
+                    <p class="col-lg-6">© Copyright <span class="font-weight-bold">NewBiz</span>. All Rights Reserved</p>
+                    <div class="w-100"></div>
+                    <p class="col-lg-6">Designed by <i class="em em-raised_hands" ></i> and <i class="em em-computer"></i></p> 
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <!--BOOTSTRAP4-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <sciptrc="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <sciptsrc="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <sciptsrc="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--COUNTER-->
+    <scipt async src="./components/js/dist/purecounter.js"></script>
+    <!--SUBMIT -->
+    <script src="./components/js/submit.js"></script>
 </body>
 </html>
